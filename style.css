@@ -1,0 +1,41 @@
+body{
+    background-color: black;
+}
+
+h1{
+    font-size: 32px;
+    color: white;
+    text-decoration: underline red;
+    padding-top: 50px;
+}
+
+#board{
+    display: grid;
+    grid-template-columns: repeat(3,100px);
+    row-gap: 5px;
+    column-gap: 5px;
+    justify-content: center;
+
+}
+
+#cell0 , #cell1, #cell2, #cell3, #cell4, #cell5, #cell6, #cell7, #cell8{
+    background-color: white;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 28px;
+    cursor: pointer;
+}
+
+button{
+    width: 90px;
+    height: 40px;
+    font-size: 24px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+h2{
+    color: white;
+}
